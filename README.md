@@ -25,7 +25,7 @@ This is a base set of files and packages included to help kickstart your develop
 client/
   accounts/ (Accounts package configuration)
     accounts.js
-  compatability/ (Extra libraries)
+  compatibility/ (Extra libraries)
     animate.css
     jasny-bootstrap.min.css
     jasny-bootstrap.min.js

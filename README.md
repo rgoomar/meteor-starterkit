@@ -91,6 +91,7 @@ by Bootstrap, but does come with some components I expect to use on newer projec
 ## Installation
 
 You should have [Meteor](http://meteor.com) and [Meteorite](https://atmospherejs.com/docs/installing) installed then follow these steps:
+
 1. Clone the repository locally
 2. run ```mrt```
 

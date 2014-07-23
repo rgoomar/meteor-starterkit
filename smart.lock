@@ -1,0 +1,70 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "iron-router": {},
+      "bootstrap3-less": {},
+      "font-awesome": {},
+      "accounts-entry": {},
+      "Bootstrap-Validator": {},
+      "auto-nprogress": {}
+    },
+    "packages": {
+      "iron-router": {
+        "git": "https://github.com/EventedMind/iron-router.git",
+        "tag": "v0.7.1",
+        "commit": "d1ffb3f06ea4c112132b030f2eb1a70b81675ecb"
+      },
+      "bootstrap3-less": {
+        "git": "https://github.com/simison/bootstrap3-less",
+        "tag": "v0.2.1",
+        "commit": "dc94a51ed00d7de6d6f2b6d65107a876d849ad61"
+      },
+      "font-awesome": {
+        "git": "https://github.com/nate-strauser/meteor-font-awesome.git",
+        "tag": "v4.1.0",
+        "commit": "ce6b1e92715d1938babc5d69c655c17e387f5926"
+      },
+      "accounts-entry": {
+        "git": "https://github.com/Differential/accounts-entry.git",
+        "tag": "v0.8.0",
+        "commit": "cf7f7d0ecc285824bc2748e305f5d693df99b4ae"
+      },
+      "Bootstrap-Validator": {
+        "git": "https://github.com/aashuagg/Bootstrap-Validator.git",
+        "tag": "v0.0.1",
+        "commit": "3e4f9808d86e55315afee4b16080eac991bf8fa4"
+      },
+      "auto-nprogress": {
+        "git": "https://github.com/settinghead/meteor-auto-nprogress.git",
+        "tag": "v0.2.7",
+        "commit": "3fa87d5244e140cc5b49696585cd23b110c36467"
+      },
+      "blaze-layout": {
+        "git": "https://github.com/EventedMind/blaze-layout.git",
+        "tag": "v0.2.4",
+        "commit": "b40e9b0612329288d75cf52ad14a7da64bb8618f"
+      },
+      "accounts-t9n": {
+        "git": "https://github.com/softwarerero/meteor-accounts-t9n.git",
+        "tag": "v0.0.5",
+        "commit": "ad9539a8818049d5d9fa050d8b2a1f62706483b1"
+      },
+      "simple-form": {
+        "git": "https://github.com/Differential/simple-form.git",
+        "tag": "v0.1.8",
+        "commit": "1ea0d3621b333e6f24f37e0e93efd3c081068716"
+      },
+      "nprogress": {
+        "git": "https://github.com/zhouzhuojie/meteor-nprogress.git",
+        "tag": "v0.0.5",
+        "commit": "bb88a057166e0f1386ab8bc0a1e080b48aa59159"
+      },
+      "underscore-string-latest": {
+        "git": "https://github.com/TimHeckel/meteor-underscore-string.git",
+        "tag": "v2.3.3",
+        "commit": "4a5d70eee48fbd90a6e6fc78747250d704a0b3bb"
+      }
+    }
+  }
+}

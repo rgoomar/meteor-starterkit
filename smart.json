@@ -1,0 +1,10 @@
+{
+  "packages": {
+    "iron-router": {},
+    "bootstrap3-less": {},
+    "font-awesome": {},
+    "accounts-entry": {},
+    "Bootstrap-Validator": {},
+    "auto-nprogress": {}
+  }
+}

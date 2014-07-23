@@ -67,12 +67,21 @@ routes.js (Iron-router routes)
 
 ## Functionality & Components Included
 * Basic User Accounts
-* Contact Form (with validation)
+* Contact Form (with [validation](http://bootstrapvalidator.com/))
 * Bootstrap LESS along with Jasny Bootstrap extension
 * File structure and LESS structure to work off
+* Basic Fixed Navigation Menu
 * Mobile Navigation Menu Fix for Bootstrap (when changing routes)
 * Small test route (/profile) so you can see how logged-in only pages work
 * [CSS Animations](http://daneden.github.io/animate.css/) which can come in handy for [customized page transitions](http://www.manuel-schoebel.com/blog/simple-page-transitions-with-iron-router-hooks)
+
+
+## LESS Structure
+The way I have this structured is that all LESS files get imported into the ```style.less``` file.
+So, all of the files are named ```filename.import.less``` and then imported in the order it should go in.
+This way, you are more organized with the order and usage of your LESS styles.
+
+This methodology just made sense to me, but if you have a suggestion / reasoning why I should change it, please feel free to open an issue.
 
 ## Why?
 So, I know there are other 'starter kits' or 'boilerplates' out there for Meteor, but I
@@ -84,3 +93,8 @@ by Bootstrap, but does come with some components I expect to use on newer projec
 You should have [Meteor](http://meteor.com) and [Meteorite](https://atmospherejs.com/docs/installing) installed then follow these steps:
 1. Clone the repository locally
 2. run ```mrt```
+
+## But... what about X
+
+If you have something that you would like added, please open up an issue or even a pull request directly.
+I am open to suggestions.

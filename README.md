@@ -68,7 +68,7 @@ routes.js (Iron-router routes)
 ## Functionality & Components Included
 * Basic User Accounts
 * Contact Form (with [validation](http://bootstrapvalidator.com/))
-* Bootstrap LESS along with Jasny Bootstrap extension
+* Bootstrap LESS along with [Jasny Bootstrap](http://jasny.github.io/bootstrap/) extension
 * File structure and LESS structure to work off
 * Basic Fixed Navigation Menu
 * Mobile Navigation Menu Fix for Bootstrap (when changing routes)

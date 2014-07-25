@@ -47,7 +47,7 @@ Template.contact.rendered = function(){
 // Setup the submit event
 Template.contact.events({
   'submit form' : function(event, template) {
-    $('input[type=submit]').prop('disabled',true);
+    $('button[type=submit]').prop('disabled',true);
     event.preventDefault();
     // Grab the data
     var name = template.find('input[name=name]').value;
@@ -71,7 +71,7 @@ Template.contact.events({
         if (err) {
           // Something went wrong :(
           Session.set('formError', true);
-          $('input[type=submit]').prop('disabled',false);
+          $('button[type=submit]').prop('disabled',false);
         } else {
           // Let them know it was submitted
           Session.set('formSubmitted', true);
@@ -79,7 +79,7 @@ Template.contact.events({
       });
     } else {
       Session.set('formError', true);
-      $('input[type=submit]').prop('disabled',false);
+      $('button[type=submit]').prop('disabled',false);
     }
   }
 });

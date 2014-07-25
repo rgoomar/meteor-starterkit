@@ -26,7 +26,7 @@
       </div>
     {{/if}}
     <!-- Start Contact Form -->
-    <form role="form">
+    <form role="form" method="POST" data-bv-submitbuttons="button[type=submit]">
     <div class="col-xs-12 col-md-8 col-lg-6 col-centered">
       <div class="form-group">
         <label for="name">Your Name</label>
@@ -40,7 +40,7 @@
         <label for="message">Message</label>
         <textarea name="message" class="form-control" rows="5" placeholder="Message" required></textarea>
       </div>
-      <input type="submit" name="submit" value="Submit" class="btn btn-info btn-lg pull-right">
+      <button type="submit" name="submit" class="btn btn-info btn-lg pull-right" disabled>Submit</button>
     </div>
   </form>
   {{/if}}

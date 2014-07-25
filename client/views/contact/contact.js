@@ -46,7 +46,7 @@ Template.contact.rendered = function(){
 };
 // Setup the submit event
 Template.contact.events({
-  'success.form.bv form' : function(event, template) {
+  'submit form' : function(event, template) {
     $('input[type=submit]').prop('disabled',true);
     event.preventDefault();
     // Grab the data

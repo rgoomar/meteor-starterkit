@@ -6,17 +6,17 @@ This is a base set of files and packages included to help kickstart your develop
 * [accounts-base](http://docs.meteor.com/#accountsui)
 * [accounts-password](http://docs.meteor.com/#accountsui)
 * [iron-router](https://atmospherejs.com/package/iron-router)
+* [iron-router-progress](https://atmospherejs.com/package/iron-router-progress)
 * [less](http://docs.meteor.com/#less)
 * [email](http://docs.meteor.com/#email)
 * [spiderable](http://docs.meteor.com/#spiderable)
 * [font-awesome](https://atmospherejs.com/package/font-awesome)
 * [bootstrap3-less](https://atmospherejs.com/package/bootstrap3-less)
-* [auto-nprogress](https://atmospherejs.com/package/auto-nprogress)
 * [accounts-entry](https://atmospherejs.com/package/accounts-entry)
 * [underscore](http://docs.meteor.com/#underscore)
 * [jquery](http://docs.meteor.com/#jquery)
 * [Bootstrap-Validator](https://atmospherejs.com/package/Bootstrap-Validator)
-
+* [Spin](https://atmospherejs.com/package/spin)
 
 ## File Structure
 ```

@@ -46,7 +46,7 @@ Template.contact.rendered = function(){
 };
 // Setup the submit event
 Template.contact.events({
-  'submit form' : function(event, template) {
+  'success.form.bv form' : function(event, template) {
     $('button[type=submit]').prop('disabled',true);
     event.preventDefault();
     // Grab the data
@@ -58,29 +58,17 @@ Template.contact.events({
       email: email,
       message: message
     };
-    var valid = true;
-    // Validate data - currently only checks to see if any fields are empty
-    _.each(data, function(value) {
-      if (value === "") {
-        valid = false;
+    // Call server function to send the data to be emailed
+    Meteor.call('sendEmail', data, function (err){
+      if (err) {
+        // Something went wrong :(
+        Session.set('formError', true);
+        $('button[type=submit]').prop('disabled',false);
+      } else {
+        // Let them know it was submitted
+        Session.set('formSubmitted', true);
       }
     });
-    if (valid) {
-      // Call server function to send the data to be emailed
-      Meteor.call('sendEmail', data, function (err){
-        if (err) {
-          // Something went wrong :(
-          Session.set('formError', true);
-          $('button[type=submit]').prop('disabled',false);
-        } else {
-          // Let them know it was submitted
-          Session.set('formSubmitted', true);
-        }
-      });
-    } else {
-      Session.set('formError', true);
-      $('button[type=submit]').prop('disabled',false);
-    }
   }
 });
 

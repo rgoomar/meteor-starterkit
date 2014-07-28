@@ -16,4 +16,5 @@ accounts-password
 email
 accounts-entry
 Bootstrap-Validator
-auto-nprogress
+iron-router-progress
+spin

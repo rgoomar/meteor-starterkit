@@ -4,7 +4,10 @@
     "bootstrap3-less": {},
     "font-awesome": {},
     "accounts-entry": {},
-    "Bootstrap-Validator": {},
-    "auto-nprogress": {}
+    "Bootstrap-Validator": {
+      "git": "https://github.com/rgoomar/Bootstrap-Validator"
+    },
+    "iron-router-progress": {},
+    "spin": {}
   }
 }

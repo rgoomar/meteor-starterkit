@@ -27,6 +27,14 @@ Router.map(function() {
       AccountsEntry.signInRequired(this);
     }
   });
+  // Test route to demonstrate a slow connection
+  this.route('slow', {
+    path: '/slow',
+    template: 'home',
+    waitOn: function() {
+      return Meteor.subscribe('testPub');
+    }
+  })
   // 404
   this.route('notFound', {
     path: '*'

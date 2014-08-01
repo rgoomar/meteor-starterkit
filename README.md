@@ -50,6 +50,7 @@ client/
   subscriptions.js (Define what data you are going to subscribe to from the server)
 
 collections/ (Model Definitions)
+  test.js (Test collection to show an example of a slow connection)
 
 packages/ (Directory for installed packages)
 

@@ -1,5 +1,10 @@
 ## Changelog
 
+### August 1st, 2014
+* Updated to Meteor 0.8.3
+* Added styling for iron-router-progress spinner on the right
+* Added a '/slow' route to test slower connection Thanks [Sacha Greif](http://crater.io/comments/XN6ZJ6Kca3q2qTT7m)
+
 ### July 28th, 2014
 
 * Updated BootstrapValidator to be the latest version from v0.3.2 to v0.5.0, currently points to my fork for the updates

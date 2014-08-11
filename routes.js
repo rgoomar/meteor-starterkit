@@ -23,6 +23,7 @@ Router.map(function() {
   // Test Restricted Access
   this.route('profile', {
     path: '/profile',
+    template: 'home',
     onBeforeAction: function () {
       AccountsEntry.signInRequired(this);
     }

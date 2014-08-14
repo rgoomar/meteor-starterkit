@@ -2,7 +2,8 @@
 This is a base set of files and packages included to help kickstart your development process.
 
 ## Demo
-You can view the demo on [starterkit.meteor.com](http://starterkit.meteor.com/)
+You can view the demo on [starterkit.meteor.com](http://starterkit.meteor.com/)  
+or view it in different screen sizes [here](http://ami.responsivedesign.is/?url=http://starterkit.meteor.com)
 
 ## Packages Included
 

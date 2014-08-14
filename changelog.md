@@ -5,6 +5,7 @@
 - Added in a header that includes the user's username
 - Added in a helper to get the username
 - Changed styling to have a bottom border
+- Added a demo url
 
 ### August 1st, 2014
 * Updated to Meteor 0.8.3

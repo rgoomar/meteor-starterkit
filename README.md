@@ -1,6 +1,9 @@
 # Meteor Starter Kit
 This is a base set of files and packages included to help kickstart your development process.
 
+## Demo
+You can view the demo on [starterkit.meteor.com](http://starterkit.meteor.com/)
+
 ## Packages Included
 
 * [accounts-base](http://docs.meteor.com/#accountsui)

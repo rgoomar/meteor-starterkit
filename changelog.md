@@ -1,5 +1,11 @@
 ## Changelog
 
+### August 14th, 2014
+- Added a nice sliding in menu instead of the dropdown to make it seem more native (Issue #1)
+- Added in a header that includes the user's username
+- Added in a helper to get the username
+- Changed styling to have a bottom border
+
 ### August 1st, 2014
 * Updated to Meteor 0.8.3
 * Added styling for iron-router-progress spinner on the right

@@ -1,6 +1,8 @@
 # Meteor Starter Kit
 This is a base set of files and packages included to help kickstart your development process.
 
+[![Code Climate](https://codeclimate.com/github/rgoomar/meteor-starterkit/badges/gpa.svg)](https://codeclimate.com/github/rgoomar/meteor-starterkit)
+
 ## Demo
 You can view the demo on [starterkit.meteor.com](http://starterkit.meteor.com/)  
 or view it in different screen sizes [here](http://ami.responsivedesign.is/?url=http://starterkit.meteor.com)

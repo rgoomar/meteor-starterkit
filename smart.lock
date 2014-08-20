@@ -2,16 +2,18 @@
   "meteor": {},
   "dependencies": {
     "basePackages": {
-      "iron-router": {},
+      "iron-router": {
+        "version": "0.8.2"
+      },
       "bootstrap3-less": {},
-      "font-awesome": {},
       "accounts-entry": {},
       "Bootstrap-Validator": {
         "git": "https://github.com/rgoomar/Bootstrap-Validator",
         "branch": "master"
       },
       "iron-router-progress": {},
-      "spin": {}
+      "spin": {},
+      "fontawesome4": {}
     },
     "packages": {
       "iron-router": {
@@ -24,15 +26,10 @@
         "tag": "v0.2.1",
         "commit": "dc94a51ed00d7de6d6f2b6d65107a876d849ad61"
       },
-      "font-awesome": {
-        "git": "https://github.com/nate-strauser/meteor-font-awesome.git",
-        "tag": "v4.1.0",
-        "commit": "ce6b1e92715d1938babc5d69c655c17e387f5926"
-      },
       "accounts-entry": {
         "git": "https://github.com/Differential/accounts-entry.git",
-        "tag": "v0.8.0",
-        "commit": "cf7f7d0ecc285824bc2748e305f5d693df99b4ae"
+        "tag": "v0.8.1",
+        "commit": "3102c0641cab394ce4c3e54b655c85ec1610c092"
       },
       "Bootstrap-Validator": {
         "git": "https://github.com/rgoomar/Bootstrap-Validator",
@@ -48,6 +45,11 @@
         "git": "https://github.com/SachaG/meteor-spin.git",
         "tag": "v2.0.4",
         "commit": "f7b1e12a7caff1283cdb3671a393c182d0ae9862"
+      },
+      "fontawesome4": {
+        "git": "https://github.com/chrismbeckett/meteor-fontawesome4.git",
+        "tag": "v1.1.0",
+        "commit": "7d2cb9119b7981b8f854b7051d302d4842311249"
       },
       "iron-layout": {
         "git": "https://github.com/EventedMind/iron-layout.git",

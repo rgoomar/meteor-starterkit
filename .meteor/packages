@@ -11,10 +11,10 @@ spiderable
 underscore
 jquery
 bootstrap3-less
-font-awesome
 accounts-password
 email
 accounts-entry
 Bootstrap-Validator
 iron-router-progress
 spin
+fontawesome4

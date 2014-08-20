@@ -1,13 +1,15 @@
 {
   "packages": {
-    "iron-router": {},
+    "iron-router": {
+      "version": "0.8.2"
+    },
     "bootstrap3-less": {},
-    "font-awesome": {},
     "accounts-entry": {},
     "Bootstrap-Validator": {
       "git": "https://github.com/rgoomar/Bootstrap-Validator"
     },
     "iron-router-progress": {},
-    "spin": {}
+    "spin": {},
+    "fontawesome4": {}
   }
 }

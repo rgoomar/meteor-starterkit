@@ -1,5 +1,9 @@
 ## Changelog
 
+### August 20th, 2014
+- Bugfix for Iron Router bugs when trying to add / remove meteorite packages
+- Changed ```font-awesome``` package to ```fontawesome4``` so that it is loaded locally and is more offline compatible
+
 ### August 14th, 2014
 - Added a nice sliding in menu instead of the dropdown to make it seem more native (Issue #1)
 - Added in a header that includes the user's username

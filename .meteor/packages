@@ -3,18 +3,17 @@
 # 'meteor add' and 'meteor remove' will edit this file for you,
 # but you can also edit it by hand.
 
-standard-app-packages
-iron-router
+meteor-platform
+iron:router
+joshowens:accounts-entry
 accounts-base
+accounts-password
+mrt:iron-router-progress
 less
-spiderable
+email
 underscore
 jquery
-bootstrap3-less
-accounts-password
-email
-accounts-entry
-Bootstrap-Validator
-iron-router-progress
-spin
-fontawesome4
+sacha:spin
+spiderable
+rgoomar:contactform
+

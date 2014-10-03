@@ -1,11 +1,13 @@
+// Custom Variables and bootstrap overrides here
 // Responsive Variables
 @xs: ~"(max-width: 767px)";
 @sm: ~"(min-width: 768px)";
 @md: ~"(min-width: 992px)";
 @lg: ~"(min-width: 1200px)";
+@xl: ~"(min-width: 1920px)";
 
-// Override default bootstrap variables
-
+@primaryColor: @navbar-default-bg;
+@otherColor: lighten(#000, 10%);
 // Iron Router Progress Bar
 @progress-background: darken(@navbar-default-bg, 10%);
 @progress-shadow-color: darken(@navbar-default-bg, 10%);

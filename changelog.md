@@ -1,5 +1,11 @@
 ## Changelog
 
+### October 3rd, 2014
+- Refactored to work with Meteor 0.9+
+- Remove Jasny Bootstrap and added custom built CSS3 mobile nav menu
+- Modularized contact form to be a separate package
+- Replaced fontawesome with ionic icons
+
 ### August 20th, 2014
 - Bugfix for Iron Router bugs when trying to add / remove meteorite packages
 - Changed ```font-awesome``` package to ```fontawesome4``` so that it is loaded locally and is more offline compatible

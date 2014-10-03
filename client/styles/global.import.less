@@ -1,0 +1,114 @@
+a:hover {
+  text-decoration: none;
+}
+// Add in row and column centering
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+.navbar {
+  margin-bottom: 0;
+  .border-radius(0);
+  border: 1px solid @primaryColor;
+}
+.mobilemenu {
+  margin-right: 10px;
+  line-height: 50px;
+  font-size: 2.2em;
+  color: @otherColor;
+  background: none;
+  box-shadow: none;
+  border: none;
+}
+.mobilemenu:link,
+.mobilemenu:hover,
+.mobilemenu:active,
+.mobilemenu:visited {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+#site-wrapper {
+  .transition(300ms ease-in);
+  min-height: 600px;
+}
+#site-wrapper.show-nav {
+  .translateHardware(-250px, 0);
+}
+.toggle-nav > i.fa.fa-times {
+  display: block;
+  font-size: 25px;
+  color: @otherColor;
+}
+
+#site-menu {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  width: 250px;
+  min-height: 100%;
+  position: fixed;
+  overflow: auto;
+  color: darken(#fff, 5%);
+  right: -250px;
+  background: darken(@otherColor, 5%);
+  border-left: 10px solid @primaryColor;
+  h2 {
+    font-weight: 300;
+    height: 10px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+#site-menu ul {
+  display: inline;
+  list-style-type: none;
+  width: 250px;
+  li {
+    display: block;
+    height: 50px;
+    width: 100%;
+    a {
+      font-weight: 300;
+      display: block;
+      height: 50px;
+      width: 100%;
+      text-decoration: none;
+      background: darken(@otherColor, 5%);
+      border-bottom: 1px solid darken(@otherColor, 5%);
+      color: #fff;
+      line-height: 50px;
+      font-size: 20px;
+      text-align: center;
+      padding-right: 25px;
+      &.active {
+        font-weight: bold;
+        color: darken(@otherColor, 5%);
+        background: @primaryColor;
+      }
+      i {
+        line-height: 48px;
+        padding-left: 15px;
+      }
+    }
+  }
+}
+
+footer {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.load-spin {
+  margin: 30px 0 50px 0;
+  color: @otherColor;
+  opacity: 0.75;
+}

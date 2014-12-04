@@ -1,6 +1,9 @@
 # Meteor Starter Kit
 This is a base set of files and packages included to help kickstart your development process.
 
+## Note
+This repository is outdated and will no longer be maintained. There are similar projects out there and I believe it is a better decision to help improve another collaboratively. For a more up-to-date starter kit, check out [Meteor Boilerplate](https://github.com/Differential/meteor-boilerplate)
+
 [![Code Climate](https://codeclimate.com/github/rgoomar/meteor-starterkit/badges/gpa.svg)](https://codeclimate.com/github/rgoomar/meteor-starterkit)
 
 ## Demo
